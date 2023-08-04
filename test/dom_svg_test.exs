@@ -1,8 +1,4 @@
-defmodule DomSvgTest do
+defmodule DOM.SVGTest do
   use ExUnit.Case
-  doctest DomSvg
-
-  test "greets the world" do
-    assert DomSvg.hello() == :world
-  end
+  doctest DOM.SVG
 end
